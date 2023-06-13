@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Ecommerce Slider v2.1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Oswald:700|Montserrat:700'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="main">
+  <header>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Accessories</a></li>
+      <li><h1>Kelas 12</h1></li>
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">Brands</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  
+  <div class="cd-slider">
+    <ul>
+      <li>
+        <div class="image" style="background-image:url(https://images.unsplash.com/photo-1598798072607-17598d304336?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1033&q=1000);"></div>
+        <div class="content">
+          <h2>Class Meeting 2022</h2>
+          <a href="#">View Gallery</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background-image:url(https://images.unsplash.com/photo-1625111696958-792514071a8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=1000);"></div>
+        <div class="content">
+          <h2>HUT RI 2022</h2>
+          <a href="#">View Gallery</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background-image:url(https://images.unsplash.com/photo-1618191218087-a515ea09bda5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=1000);"></div>
+        <div class="content">
+          <h2>Winter Shoes</h2>
+          <a href="#">View Gallery</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background-image:url(https://images.unsplash.com/35/JOd4DPGLThifgf38Lpgj_IMG.jpg?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1000);"></div>
+        <div class="content">
+          <h2>Winter Collection 2017</h2>
+          <a href="#">View Gallery</a>
+        </div>
+      </li>
+      <li>
+        <div class="image" style="background-image:url(https://images.unsplash.com/photo-1453974336165-b5c58464f1ed?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1000);"></div>
+        <div class="content">
+          <h2>Summer Collection</h2>
+          <a href="#">View Gallery</a>
+        </div>
+      </li>      
+    </ul>
+  </div> <!--/.cd-slider-->
+  
+  <div class="wrapper">
+    <h1 class="heading">Foto Paling berkesan</h1>
+    
+    <div class="item item2">
+      <div class="polaroid"><img src="https://i.ibb.co/DRDy5XP/alex-knight-Ys-DBJe-X0n-E-unsplash.jpg">
+        <div class="caption">Serang, 2022</div>
+      </div>
+    </div>
+    <div class="item item2">
+      <div class="polaroid"><img src="https://i.ibb.co/DRDy5XP/alex-knight-Ys-DBJe-X0n-E-unsplash.jpg">
+        <div class="caption">Bogor, 2023</div>
+      </div>
+    </div>
+    <div class="item item2">
+      <div class="polaroid"><img src="https://i.ibb.co/DRDy5XP/alex-knight-Ys-DBJe-X0n-E-unsplash.jpg">
+        <div class="caption">Jakarta, 2024</div>
+      </div>
+    </div>
+     
+    </div>  
+  </div>
+  
+</div>
+<div class="container-cd">
+<input type="text" id="searchInput" placeholder="Cari siswa...">
+  <div class="grid-container" id="gridContainer"></div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span id="closeBtn" class="close">Kembali</span>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="script.js"></script>
+  <script  src="datas.js"></script>
+
+</body>
+</html>
