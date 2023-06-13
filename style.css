@@ -301,6 +301,10 @@ nav {
 		left: 0;
 		right: auto;
 	}
+	.reseume {
+		width: 10%;
+		margin: 0px;
+	}
 }
 
 
@@ -468,33 +472,109 @@ input[type="text"]:focus {
 	filter: grayscale(0%);
 	transition: all 0.35s;
 }
+
 .biodata-container {
 	max-width: 600px;
 	padding: 20px;
 	margin: 0 auto;
-  }
+}
 
-  .profile-pic {
+.profile-pic {
 	text-align: center;
 	margin-bottom: 20px;
-  }
+}
 
-  .profile-pic img {
+.profile-pic img {
 	width: 250px;
 	height: 290px;
 	object-fit: cover;
-  }
+}
 
-  .info {
+.info {
 	margin-bottom: 20px;
-  }
+}
 
-  .info label {
-	font-weight: bold;
-	line-height: 2;
-  }
+.info label {
+	font-weight: 600;
+}
 
-  .info p {
-	margin: 0;
-	color: #555;
-  }
+.info p {
+	font-size: 13px;
+	margin-top: 5px;
+	color: #7c7c7c;
+	font-weight: 400;
+	line-height: 1;
+}
+
+
+.resume {
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 600px;
+}
+
+.resume h1,
+.resume h2 {
+	text-align: left_side;
+}
+
+.resume h2 {
+	margin-bottom: 30px;
+}
+
+.resume .profile-pic {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.resume .profile-pic img {
+	width: 250px;
+	height: 300px;
+}
+
+.resume .section {
+	margin-bottom: 30px;
+}
+
+.resume .section h3 {
+	margin-bottom: 10px;
+}
+
+.resume .section p {
+	margin-bottom: 5px;
+	color: #9c9c9c;
+}
+
+.section strong {
+	color: #ffffff;
+}
+
+.container-tnd {
+	position: sticky;
+	top: 20%;
+}
+
+.absen {
+	position: absolute;
+	top: 20%;
+	z-index: 99999999;
+}
+.absen h1 {
+	font-size: 90px;
+	opacity: 20%;
+	font-style: italic;
+	
+}
+
+.absen-right {
+	position: absolute;
+	top: 20%;
+	z-index: 99999999;
+	right: 10%;
+}
+.absen-right h1 {
+	font-size: 90px;
+	opacity: 20%;
+	font-style: italic;
+	
+}

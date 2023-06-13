@@ -37,6 +37,74 @@ function showModal(siswa) {
   const modalContent = document.getElementById('modalContent');
   modalContent.innerHTML = `
 
+
+  <div class="container-tnd">
+  <div class="absen"><h1>NO 01</h1></div>
+  <div class="absen-right"><h1>XII</h1></div>
+  </div>
+
+
+
+
+  <body>
+  <div class="resume">
+      <div class="profile-pic">
+      <img src="${siswa.photo_profile}" alt="${siswa.nama}">
+  </div>
+  <h1>${siswa.nama}</h1>
+    <hr>
+  <div class="section">
+      <h2">KATA-KATA</h2>
+      <p> To impart my knowledge and serving skills earned through extensive trainings and experiences and further develop myself in being a part of the company.</p>
+    </div>
+  <hr>
+  <div class="section">
+    <h2">PERSONAL INFORMATION</h2>
+      <p><strong>Nama Panggilan:</strong> ${siswa.nama_panggilan}</p>
+      <p><strong>Tanggal Lahir:</strong> ${siswa.tanggal_lahir}</p>
+      <p><strong>Tempat Lahir:</strong> ${siswa.tempat_lahir}</p>
+      <p><strong>Alamat Email:</strong> ${siswa.alamat_email}</p>
+      <p><strong>Place Of Birth:</strong> </p>
+      <p><strong>Civil Status:</strong> Single</p> 
+      <p><strong>Religion:</strong> Roman Catholic</p>
+      <p><strong>Nationality:</strong> Filipino</p>
+    </div>
+  <hr>
+  <div class="section">
+    <h2">CONTACT</h2>
+      <p><strong>Cellphone Number:</strong> 09102949352</p>
+      <p><strong>Email Address:</strong> afable.nicole.eccinfoodtech@gamail.com</p>
+   </div>
+  <hr>
+  <div class="section">
+  <h2>EDUCATION</h2>
+      <p><strong>COLLEGE:</strong>
+      <p>- Bachelor of Science and Industrial Technology Major in FoodTech (2nd year College) 2021-2023 |EARIST Eulogio "Amang" Rodriguez Institute of Science and Technology </p>
+      <p><strong>SECONDARY:</strong>
+      <p>- Information and Communication Technology | Philippine Technological Institute of Science Arts and Trade Inc. (Senior High). <p> -
+  GMA, Cavite 2018-2020 Gen. Mariano Alvarez Technical High School (Junior High) #688 Brgy. Poblacion 1 Cong. Road GMA, Cavite 2012-2018</p>
+  
+      <p><strong>PRIMARY:</strong>
+      <p>- San. Gabriel 1. Elementary School Barangay Dacon, GMA, Cavite Year Graduated - 2014 </p>
+  </div>
+  <hr>
+  <div class="section">
+    <h2">WORK EXPERIENCE</h2>
+      <p><strong>Company Name:</strong> Celeraise Electronics Corporation </p>
+      <p><strong>Date:</strong> September 8, 2020-May 16, 2021
+      <p><strong>Company Location:</strong> Maguyam Silang, Cavite Production Machine Operator</p>
+  
+      </div>
+    </body>
+  </html>
+  
+
+
+
+
+
+
+  
   <div class="biodata-container">
   <h1>Biodata Siswa</h1>
   <div class="profile-pic">
@@ -72,21 +140,21 @@ function showModal(siswa) {
   </div>
   <div class="info">
     <label>Riwayat Pendidikan:</label>
-    <ul>
+    <p>
       ${renderPendidikan(siswa.riwayat_pendidikan)}
-    </ul>
+    </p>
   </div>
   <div class="info">
     <label>Prestasi Akademik:</label>
-    <ul>
+    <p>
       ${renderList(siswa.prestasi_akademik)}
-    </ul>
+    </p>
   </div>
   <div class="info">
     <label>Aktivitas Ekstrakurikuler:</label>
-    <ul>
+    <p>
       ${renderList(siswa.aktivitas_ekstrakurikuler)}
-    </ul>
+    </p>
   </div>
   <div class="info">
     <label>Rencana Masa Depan:</label>
@@ -99,10 +167,10 @@ function showModal(siswa) {
   const closeBtn = document.getElementsByClassName('close')[0];
 
   // Tutup modal saat tombol close diklik atau di luar modal
-  closeBtn.onclick = function() {
+  closeBtn.onclick = function () {
     modal.style.display = 'none';
   }
-  window.onclick = function(event) {
+  window.onclick = function (event) {
     if (event.target == modal) {
       modal.style.display = 'none';
     }
@@ -128,11 +196,11 @@ function renderPendidikan(riwayat) {
 
 // Render daftar prestasi dan aktivitas ekstrakurikuler
 function renderList(list) {
-  let listHTML = '<ul>';
+  let listHTML = '<div>';
   list.forEach(item => {
-    listHTML += `<li>${item}</li>`;
+    listHTML += `<p>${item}</p>`;
   });
-  listHTML += '</ul>';
+  listHTML += '</div>';
   return listHTML;
 }
 
