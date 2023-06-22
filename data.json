@@ -1,5 +1,5 @@
 {
-  "siswa1": {
+  "siswa": {
     "nama": "Shifa",
     "nama_panggilan": "Shifa",
     "tanggal_lahir": "2000-05-15",
@@ -30,29 +30,33 @@
     "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
   },
   "siswa2": {
-    "nama": "Salwa Hartati",
-    "nama_panggilan": "Alfin",
-    "tanggal_lahir": "2001-08-22",
-    "tempat_lahir": "Surabaya",
-    "alamat_saat_ini": "Jl. Contoh No. 456, Serang",
-    "alamat_email": "mateocompanyone@gmail.com",
-    "nomor_telepon": "+628987654390898",
+    "nama": "Shifa",
+    "nama_panggilan": "Shifa",
+    "tanggal_lahir": "2000-05-15",
+    "tempat_lahir": "Jakarta",
+    "alamat_saat_ini": "Jl. Contoh No. 123, Jakarta",
+    "alamat_email": "johndoe@example.com",
     "riwayat_pendidikan": [
       {
-        "nama_sekolah": "SMA DEF",
+        "nama_sekolah": "SMA ABC",
         "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2019"
+        "tahun_kelulusan": "2018"
+      },
+      {
+        "nama_sekolah": "Universitas XYZ",
+        "tingkat_pendidikan": "Sarjana",
+        "tahun_kelulusan": "2022"
       }
     ],
     "prestasi_akademik": [
-      "Juara 2 Lomba Fisika Tingkat Nasional (2018)",
-      "Penghargaan Siswa Berprestasi (2019)"
+      "Juara 1 Lomba Matematika Tingkat Kota (2015)",
+      "Penghargaan Siswa Teladan (2018)"
     ],
     "aktivitas_ekstrakurikuler": [
-      "Anggota Paduan Suara SMA DEF (2017-2019)",
-      "Ketua Klub Bahasa Inggris SMA DEF (2018-2019)"
+      "Anggota Tim Basket SMA ABC (2016-2018)",
+      "Ketua OSIS SMA ABC (2017-2018)"
     ],
-    "rencana_masa_depan": "Menjalani magang di bidang Pemasaran",
+    "rencana_masa_depan": "Melanjutkan studi pascasarjana di bidang Ilmu Komputer",
     "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
   },
   "siswa3": {

@@ -1,74 +1,54 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Biodata Siswa</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f1f1f1;
-      margin: 0;
-      padding: 20px;
-    }
-
-    h1 {
-      text-align: center;
-    }
-
-    .biodata-container {
-      max-width: 600px;
-      background-color: #fff;
-      padding: 20px;
-      margin: 0 auto;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .profile-pic {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .profile-pic img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-
-    .info {
-      margin-bottom: 20px;
-    }
-
-    .info label {
-      font-weight: bold;
-    }
-
-    .info p {
-      margin: 0;
-    }
-  </style>
-</head>
-<body>
-  <div class="biodata-container">
-    <h1>Biodata Siswa</h1>
-    <div class="profile-pic">
-      <img src="https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg" alt="Profile Picture">
-    </div>
-    <div class="info">
-      <label>Nama:</label>
-      <p>John Doe</p>
-    </div>
-    <div class="info">
-      <label>Umur:</label>
-      <p>17 tahun</p>
-    </div>
-    <div class="info">
-      <label>Alamat:</label>
-      <p>Jalan Raya No. 123</p>
-    </div>
-    <div class="info">
-      <label>Kelas:</label>
-      <p>12A</p>
-    </div>
+<div class="resume">
+  <div class="profile-pic">
+    <img src="${siswa.photo_profile}" alt="${siswa.nama}">
   </div>
-</body>
-</html>
+  <h1>${siswa.nama}</h1>
+  <hr>
+  <div class="section">
+    <h2">KATA-KATA</h2>
+      <p> To impart my knowledge and serving skills earned through extensive trainings and experiences and further
+        develop myself in being a part of the company.</p>
+  </div>
+  <hr>
+
+  <div class="section">
+    <p><strong>Nama Panggilan:</strong> ${siswa.nama_panggilan}</p>
+
+    <h2>Informasi Siswa</h2>
+    <p><strong>Nama:</strong> ${siswa.nama}</p>
+    <p><strong>Tanggal Lahir:</strong> ${siswa.tanggal_lahir}</p>
+    <p><strong>Tempat Lahir:</strong> ${siswa.tempat_lahir}</p>
+    <p><strong>Alamat Saat Ini:</strong> ${siswa.alamat_saat_ini}</p>
+    <p><strong>Alamat Email:</strong> ${siswa.alamat_email}</p>
+
+    <h2>Riwayat Pendidikan</h2>
+    <ul>
+      <li>
+        <p><strong>Nama Sekolah:</strong> ${siswa.riwayat_pendidikan[0].nama_sekolah}</p>
+        <p><strong>Tingkat Pendidikan:</strong> ${siswa.riwayat_pendidikan[0].tingkat_pendidikan}</p>
+        <p><strong>Tahun Kelulusan:</strong> ${siswa.riwayat_pendidikan[0].tahun_kelulusan}</p>
+      </li>
+      <li>
+        <p><strong>Nama Sekolah:</strong> ${siswa.riwayat_pendidikan[1].nama_sekolah}</p>
+        <p><strong>Tingkat Pendidikan:</strong> ${siswa.riwayat_pendidikan[1].tingkat_pendidikan}</p>
+        <p><strong>Tahun Kelulusan:</strong> ${siswa.riwayat_pendidikan[1].tahun_kelulusan}</p>
+      </li>
+    </ul>
+
+    <h2>Prestasi Akademik</h2>
+    <ul>
+      <li>${siswa.prestasi_akademik[0]}</li>
+      <li>${siswa.prestasi_akademik[1]}</li>
+    </ul>
+
+    <h2>Aktivitas Ekstrakurikuler</h2>
+    <ul>
+      <li>${siswa.aktivitas_ekstrakurikuler[0]}</li>
+      <li>${siswa.aktivitas_ekstrakurikuler[1]}</li>
+    </ul>
+
+    <h2>Rencana Masa Depan</h2>
+    <p>${siswa.rencana_masa_depan}</p>
+
+  </div>
+  <hr>

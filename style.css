@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
 	box-sizing: border-box;
 }
@@ -288,25 +290,6 @@ nav {
 	width: 3.5rem;
 }
 
-@media screen and (max-width: 550px) {
-	.image {
-		width: 100%;
-	}
-
-	.content {
-		padding-right: 2rem;
-	}
-
-	nav {
-		left: 0;
-		right: auto;
-	}
-	.reseume {
-		width: 10%;
-		margin: 0px;
-	}
-}
-
 
 .wrapper {
 	width: 100%;
@@ -319,7 +302,7 @@ nav {
 	font-family: 'Montserrat', sans-serif;
 	text-align: left;
 	margin: 30px 0px;
-	font-weight: 600;
+
 }
 
 .polaroid {
@@ -389,22 +372,28 @@ input[type="text"]:focus {
 	margin: 20px;
 }
 
-.grid-container {
+.set {
 	display: flex;
-	flex-flow: row wrap;
-	margin: 0 auto;
-	justify-content: flex-start;
 	align-items: center;
+	justify-content: center;
+
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	/*grid-template-columns: repeat(auto-fill, minmax(200px 1fr));*/
+	grid-gap: 20px;
 }
 
 .card {
-	align-items: center;
+
 	text-align: center;
 	cursor: pointer;
-	margin: 20px;
+
 	padding: 10px;
 	background-color: #131313;
-
+	flex: 1 1 200px;
 }
 
 
@@ -437,27 +426,17 @@ input[type="text"]:focus {
 	background-color: #080808;
 	padding: 50px;
 	width: 100%;
-	font-size: 15px;
 	align-items: center;
 	justify-content: center;
+	font-weight: 100;
+	font-size: 15px;
+
 }
 
 .modal-content button {
 	background-color: #888;
 }
 
-.close button {
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 50px;
-	font-weight: bold;
-	cursor: pointer;
-	background-color: aliceblue;
-	z-index: 9999999;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
 
 
 .profile-image {
@@ -473,44 +452,16 @@ input[type="text"]:focus {
 	transition: all 0.35s;
 }
 
-.biodata-container {
-	max-width: 600px;
-	padding: 20px;
-	margin: 0 auto;
-}
 
-.profile-pic {
-	text-align: center;
-	margin-bottom: 20px;
-}
 
-.profile-pic img {
-	width: 250px;
-	height: 290px;
-	object-fit: cover;
-}
 
-.info {
-	margin-bottom: 20px;
-}
 
-.info label {
-	font-weight: 600;
-}
-
-.info p {
-	font-size: 13px;
-	margin-top: 5px;
-	color: #7c7c7c;
-	font-weight: 400;
-	line-height: 1;
-}
 
 
 .resume {
 	margin: 0 auto;
-	padding: 20px;
-	max-width: 600px;
+	line-height: 1.1;
+	max-width: 500px;
 }
 
 .resume h1,
@@ -519,12 +470,15 @@ input[type="text"]:focus {
 }
 
 .resume h2 {
-	margin-bottom: 30px;
+	margin: 10px 0px;
+	font-size: 16px;
 }
 
 .resume .profile-pic {
 	text-align: center;
 	margin-bottom: 30px;
+	z-index: 2;
+	position: relative;
 }
 
 .resume .profile-pic img {
@@ -540,41 +494,81 @@ input[type="text"]:focus {
 	margin-bottom: 10px;
 }
 
-.resume .section p {
-	margin-bottom: 5px;
-	color: #9c9c9c;
+.resume strong {
+	color: #ffffff;
+	font-weight: bold;
 }
 
-.section strong {
-	color: #ffffff;
+.resume .section p {
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	color: #dadada;
 }
+
 
 .container-tnd {
 	position: sticky;
 	top: 20%;
 }
 
+.section-kta p{
+	text-align: center;
+	font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+
+
 .absen {
 	position: absolute;
 	top: 20%;
-	z-index: 99999999;
+	z-index: 1;
 }
+
 .absen h1 {
 	font-size: 90px;
 	opacity: 20%;
 	font-style: italic;
-	
+
 }
 
 .absen-right {
 	position: absolute;
 	top: 20%;
-	z-index: 99999999;
+	z-index: 1;
 	right: 10%;
 }
+
 .absen-right h1 {
 	font-size: 90px;
 	opacity: 20%;
 	font-style: italic;
-	
+}
+
+hr {
+	margin: 20px 0px;
+}
+
+
+@media screen and (max-width: 550px) {
+	.image {
+		width: 100%;
+	}
+
+	.content {
+		padding-right: 2rem;
+	}
+
+	nav {
+		left: 0;
+		right: auto;
+	}
+
+	.reseume {
+		width: 10%;
+		margin: 0px;
+	}
+
+	.grid-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
