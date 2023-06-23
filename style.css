@@ -609,9 +609,10 @@ hr {
 	border-top-left-radius: 0;
 }
 
-.profile-pic img {
+.profile-bubble img {
 	width: 40px;
 	height: 40px;
+	border-radius: 50%;
 	margin-right: 10px;
 }
 
