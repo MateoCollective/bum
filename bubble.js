@@ -11,7 +11,7 @@ async function fetchSiswaData() {
     bubbleChat.className = 'bubble-chat';
     bubbleChat.classList.add(position === 'left' ? 'left' : 'right');
     bubbleChat.innerHTML = `
-      <div class="profile-pic">
+      <div class="profile-bubble">
         <img src="${siswa.photo_profile}" alt="${siswa.nama}">
       </div>
       <div class="bubble-content">
