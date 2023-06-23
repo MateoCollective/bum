@@ -53,17 +53,17 @@ function showModal(siswa) {
  
 
   <div class="section-kta">
-      <p> To impart my knowledge and serving skills earned through extensive trainings and experiences and further
-        develop myself in being a part of the company.</p>
+      <p> ${siswa.kata_kata}</p>
   </div>
   <hr>
 
   <div class="section">
-    <p><strong>Nama Panggilan:</strong> ${siswa.nama_panggilan}</p>
+   
 
     
     <h2>Informasi Siswa</h2>
     <p><strong>Nama:</strong> ${siswa.nama}</p>
+    <p><strong>Nama Panggilan:</strong> ${siswa.nama_panggilan}</p>
     <p><strong>Tanggal Lahir:</strong> ${siswa.tanggal_lahir}</p>
     <p><strong>Tempat Lahir:</strong> ${siswa.tempat_lahir}</p>
     <p><strong>Alamat Saat Ini:</strong> ${siswa.alamat_saat_ini}</p>
@@ -75,9 +75,6 @@ function showModal(siswa) {
         <p><strong>Tingkat Pendidikan:</strong> ${siswa.riwayat_pendidikan[0].tingkat_pendidikan}</p>
         <p><strong>Tahun Kelulusan:</strong> ${siswa.riwayat_pendidikan[0].tahun_kelulusan}</p>
 
-        <p><strong>Nama Sekolah:</strong> ${siswa.riwayat_pendidikan[1].nama_sekolah}</p>
-        <p><strong>Tingkat Pendidikan:</strong> ${siswa.riwayat_pendidikan[1].tingkat_pendidikan}</p>
-        <p><strong>Tahun Kelulusan:</strong> ${siswa.riwayat_pendidikan[1].tahun_kelulusan}</p>
         <hr>
     <h2>Prestasi Akademik</h2>
 

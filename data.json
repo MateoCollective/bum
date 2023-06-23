@@ -13,9 +13,9 @@
         "tahun_kelulusan": "2018"
       },
       {
-        "nama_sekolah": "Universitas XYZ",
-        "tingkat_pendidikan": "Sarjana",
-        "tahun_kelulusan": "2022"
+        "nama_sekolah": "",
+        "tingkat_pendidikan": "",
+        "tahun_kelulusan": ""
       }
     ],
     "prestasi_akademik": [
@@ -27,7 +27,9 @@
       "Ketua OSIS SMA ABC (2017-2018)"
     ],
     "rencana_masa_depan": "Melanjutkan studi pascasarjana di bidang Ilmu Komputer",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
+    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+    "kata_kata": "To impart my knowledge and serving skills earned through extensive trainings and experiences and further develop myself in being a part of the company.",
+    "typing": "Hai semunya, saya suka makan, makanan Javier"
   },
   "siswa2": {
     "nama": "Shifa",
