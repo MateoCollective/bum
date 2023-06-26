@@ -32,220 +32,228 @@
     "typing": "Hai semunya, saya suka makan, makanan Javier"
   },
   "siswa2": {
-    "nama": "Shifa",
-    "nama_panggilan": "Shifa",
-    "tanggal_lahir": "2000-05-15",
-    "tempat_lahir": "Jakarta",
-    "alamat_saat_ini": "Jl. Contoh No. 123, Jakarta",
-    "alamat_email": "johndoe@example.com",
+    "nama": "Andi",
+    "nama_panggilan": "Andi",
+    "tanggal_lahir": "2002-08-10",
+    "tempat_lahir": "Surabaya",
+    "alamat_saat_ini": "Jl. Raya Jaya No. 456, Surabaya",
+    "alamat_email": "andijohn@example.com",
     "riwayat_pendidikan": [
       {
-        "nama_sekolah": "SMA ABC",
+        "nama_sekolah": "SMA XYZ",
         "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2018"
+        "tahun_kelulusan": "2020"
+      },
+      {
+        "nama_sekolah": "Universitas ABC",
+        "tingkat_pendidikan": "Sarjana",
+        "tahun_kelulusan": "2024"
+      }
+    ],
+    "prestasi_akademik": [
+      "Juara 1 Lomba Fisika Tingkat Nasional (2019)",
+      "Penghargaan Mahasiswa Berprestasi (2023)"
+    ],
+    "aktivitas_ekstrakurikuler": [
+      "Anggota Paduan Suara SMA XYZ (2016-2020)",
+      "Ketua Himpunan Mahasiswa Jurusan Fisika (2021-2023)"
+    ],
+    "rencana_masa_depan": "Menjadi ilmuwan terkemuka dalam bidang Fisika",
+    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+    "kata_kata": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "typing": "Halo semuanya, apakabar? Saya sangat senang bergabung di sini!"
+  },
+  "siswa3": {
+    "nama": "Rina",
+      "nama_panggilan": "Rina",
+      "tanggal_lahir": "2001-03-20",
+      "tempat_lahir": "Bandung",
+      "alamat_saat_ini": "Jl. Indah No. 789, Bandung",
+      "alamat_email": "rinaliu@example.com",
+      "riwayat_pendidikan": [
+        {
+          "nama_sekolah": "SMA PQR",
+          "tingkat_pendidikan": "SMA",
+          "tahun_kelulusan": "2019"
+        },
+        {
+          "nama_sekolah": "Universitas XYZ",
+          "tingkat_pendidikan": "Sarjana",
+          "tahun_kelulusan": "2023"
+        }
+      ],
+      "prestasi_akademik": [
+        "Juara 1 Lomba Kimia Tingkat Daerah (2017)",
+        "Penghargaan Mawapres (2022)"
+      ],
+      "aktivitas_ekstrakurikuler": [
+        "Anggota Teater SMA PQR (2016-2019)",
+        "Ketua Himpunan Mahasiswa Jurusan Kimia (2020-2022)"
+      ],
+      "rencana_masa_depan": "Mengabdikan diri dalam riset dan pengembangan ilmu Kimia",
+      "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+      "kata_kata": "Believe you can and you're halfway there.",
+      "typing": "Hai semua, saya senang dapat bergabung di sini. Salam kenal!"
+    },
+  "siswa4": {
+    "nama": "Budi",
+    "nama_panggilan": "Budi",
+    "tanggal_lahir": "2003-11-02",
+    "tempat_lahir": "Surabaya",
+    "alamat_saat_ini": "Jl. Bahagia No. 321, Surabaya",
+    "alamat_email": "budijohn@example.com",
+    "riwayat_pendidikan": [
+      {
+        "nama_sekolah": "SMA LMN",
+        "tingkat_pendidikan": "SMA",
+        "tahun_kelulusan": "2021"
+      },
+      {
+        "nama_sekolah": "Universitas PQR",
+        "tingkat_pendidikan": "Sarjana",
+        "tahun_kelulusan": "2025"
+      }
+    ],
+    "prestasi_akademik": [
+      "Juara 1 Lomba Bahasa Inggris Tingkat Nasional (2019)",
+      "Penghargaan Mahasiswa Berprestasi (2024)"
+    ],
+    "aktivitas_ekstrakurikuler": [
+      "Anggota Paduan Suara SMA LMN (2017-2021)",
+      "Ketua Himpunan Mahasiswa Jurusan Sastra Inggris (2022-2024)"
+    ],
+    "rencana_masa_depan": "Menjadi penulis dan penerjemah terkenal",
+    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+    "kata_kata": "The only way to do great work is to love what you do.",
+    "typing": "Halo semuanya! Saya sangat senang bisa bergabung di sini."
+  },
+  "siswa5": {
+    "nama": "Citra",
+      "nama_panggilan": "Citra",
+      "tanggal_lahir": "2002-07-12",
+      "tempat_lahir": "Yogyakarta",
+      "alamat_saat_ini": "Jl. Harmoni No. 567, Yogyakarta",
+      "alamat_email": "citrarai@example.com",
+      "riwayat_pendidikan": [
+        {
+          "nama_sekolah": "SMA XYZ",
+          "tingkat_pendidikan": "SMA",
+          "tahun_kelulusan": "2020"
+        },
+        {
+          "nama_sekolah": "Universitas LMN",
+          "tingkat_pendidikan": "Sarjana",
+          "tahun_kelulusan": "2024"
+        }
+      ],
+      "prestasi_akademik": [
+        "Juara 1 Lomba Seni Budaya Tingkat Nasional (2018)",
+        "Penghargaan Mahasiswa Berprestasi (2023)"
+      ],
+      "aktivitas_ekstrakurikuler": [
+        "Anggota Paduan Suara SMA XYZ (2016-2020)",
+        "Ketua Himpunan Mahasiswa Jurusan Seni Rupa (2021-2023)"
+      ],
+      "rencana_masa_depan": "Menjadi seniman yang sukses dan menginspirasi",
+      "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+      "kata_kata": "Art is not what you see, but what you make others see.",
+      "typing": "Hai semuanya, saya senang berada di sini. Ayo berkreasi bersama!"
+    },
+  "siswa6": {
+    "nama": "Faisal",
+    "nama_panggilan": "Faisal",
+    "tanggal_lahir": "2003-03-20",
+    "tempat_lahir": "Bandung",
+    "alamat_saat_ini": "Jl. Sejahtera No. 789, Bandung",
+    "alamat_email": "faisaljohn@example.com",
+    "riwayat_pendidikan": [
+      {
+        "nama_sekolah": "SMA XYZ",
+        "tingkat_pendidikan": "SMA",
+        "tahun_kelulusan": "2021"
+      },
+      {
+        "nama_sekolah": "Universitas PQR",
+        "tingkat_pendidikan": "Sarjana",
+        "tahun_kelulusan": "2025"
+      }
+    ],
+    "prestasi_akademik": [
+      "Juara 1 Lomba Kimia Tingkat Provinsi (2020)",
+      "Penghargaan Mahasiswa Berprestasi (2024)"
+    ],
+    "aktivitas_ekstrakurikuler": [
+      "Anggota Tim Voli SMA XYZ (2018-2021)",
+      "Ketua Himpunan Mahasiswa Jurusan Kimia (2022-2024)"
+    ],
+    "rencana_masa_depan": "Menjadi peneliti kimia dan berkontribusi dalam penemuan baru",
+    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+    "kata_kata": "The only way to do great work is to love what you do.",
+    "typing": "Hai semuanya! Saya sangat senang bisa bergabung di sini. Salam kenal!"
+  },
+  "siswa7": {
+    "nama": "Dewi",
+    "nama_panggilan": "Dewi",
+    "tanggal_lahir": "2001-09-05",
+    "tempat_lahir": "Surabaya",
+    "alamat_saat_ini": "Jl. Indah No. 123, Surabaya",
+    "alamat_email": "dewijohn@example.com",
+    "riwayat_pendidikan": [
+      {
+        "nama_sekolah": "SMA PQR",
+        "tingkat_pendidikan": "SMA",
+        "tahun_kelulusan": "2019"
       },
       {
         "nama_sekolah": "Universitas XYZ",
         "tingkat_pendidikan": "Sarjana",
-        "tahun_kelulusan": "2022"
-      }
-    ],
-    "prestasi_akademik": [
-      "Juara 1 Lomba Matematika Tingkat Kota (2015)",
-      "Penghargaan Siswa Teladan (2018)"
-    ],
-    "aktivitas_ekstrakurikuler": [
-      "Anggota Tim Basket SMA ABC (2016-2018)",
-      "Ketua OSIS SMA ABC (2017-2018)"
-    ],
-    "rencana_masa_depan": "Melanjutkan studi pascasarjana di bidang Ilmu Komputer",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
-  },
-  "siswa3": {
-    "nama": "Ina Mandasari",
-    "nama_panggilan": "Jane",
-    "tanggal_lahir": "2001-08-22",
-    "tempat_lahir": "Surabaya",
-    "alamat_saat_ini": "Jl. Contoh No. 456, Surabaya",
-    "alamat_email": "janesmith@example.com",
-    "nomor_telepon": "+6289876543210",
-    "riwayat_pendidikan": [
-      {
-        "nama_sekolah": "SMA DEF",
-        "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2019"
-      },
-      {
-        "nama_sekolah": "Universitas UVW",
-        "tingkat_pendidikan": "Sarjana",
         "tahun_kelulusan": "2023"
       }
     ],
     "prestasi_akademik": [
-      "Juara 2 Lomba Fisika Tingkat Nasional (2018)",
-      "Penghargaan Siswa Berprestasi (2019)"
+      "Juara 1 Lomba Bahasa Indonesia Tingkat Kota (2017)",
+      "Penghargaan Mahasiswa Berprestasi (2022)"
     ],
     "aktivitas_ekstrakurikuler": [
-      "Anggota Paduan Suara SMA DEF (2017-2019)",
-      "Ketua Klub Bahasa Inggris SMA DEF (2018-2019)"
+      "Anggota Paduan Suara SMA PQR (2016-2019)",
+      "Ketua Himpunan Mahasiswa Jurusan Sastra (2020-2022)"
     ],
-    "rencana_masa_depan": "Menjalani magang di bidang Pemasaran",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
-  },
-  "siswa4": {
-    "nama": "Tami Yuliarti",
-    "nama_panggilan": "Jane",
-    "tanggal_lahir": "2001-08-22",
-    "tempat_lahir": "Surabaya",
-    "alamat_saat_ini": "Jl. Contoh No. 456, Surabaya",
-    "alamat_email": "janesmith@example.com",
-    "nomor_telepon": "+6289876543210",
-    "riwayat_pendidikan": [
-      {
-        "nama_sekolah": "SMA DEF",
-        "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2019"
-      },
-      {
-        "nama_sekolah": "Universitas UVW",
-        "tingkat_pendidikan": "Sarjana",
-        "tahun_kelulusan": "2023"
-      }
-    ],
-    "prestasi_akademik": [
-      "Juara 2 Lomba Fisika Tingkat Nasional (2018)",
-      "Penghargaan Siswa Berprestasi (2019)"
-    ],
-    "aktivitas_ekstrakurikuler": [
-      "Anggota Paduan Suara SMA DEF (2017-2019)",
-      "Ketua Klub Bahasa Inggris SMA DEF (2018-2019)"
-    ],
-    "rencana_masa_depan": "Menjalani magang di bidang Pemasaran",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
-  },
-  "siswa5": {
-    "nama": "Farhunnisa Usada",
-    "nama_panggilan": "Jane",
-    "tanggal_lahir": "2001-08-22",
-    "tempat_lahir": "Surabaya",
-    "alamat_saat_ini": "Jl. Contoh No. 456, Surabaya",
-    "alamat_email": "janesmith@example.com",
-    "nomor_telepon": "+6289876543210",
-    "riwayat_pendidikan": [
-      {
-        "nama_sekolah": "SMA DEF",
-        "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2019"
-      },
-      {
-        "nama_sekolah": "Universitas UVW",
-        "tingkat_pendidikan": "Sarjana",
-        "tahun_kelulusan": "2023"
-      }
-    ],
-    "prestasi_akademik": [
-      "Juara 2 Lomba Fisika Tingkat Nasional (2018)",
-      "Penghargaan Siswa Berprestasi (2019)"
-    ],
-    "aktivitas_ekstrakurikuler": [
-      "Anggota Paduan Suara SMA DEF (2017-2019)",
-      "Ketua Klub Bahasa Inggris SMA DEF (2018-2019)"
-    ],
-    "rencana_masa_depan": "Menjalani magang di bidang Pemasaran",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
-  },
-  "siswa6": {
-    "nama": "Yuliana Purwanti",
-    "nama_panggilan": "Jane",
-    "tanggal_lahir": "2001-08-22",
-    "tempat_lahir": "Surabaya",
-    "alamat_saat_ini": "Jl. Contoh No. 456, Surabaya",
-    "alamat_email": "janesmith@example.com",
-    "nomor_telepon": "+6289876543210",
-    "riwayat_pendidikan": [
-      {
-        "nama_sekolah": "SMA DEF",
-        "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2019"
-      },
-      {
-        "nama_sekolah": "Universitas UVW",
-        "tingkat_pendidikan": "Sarjana",
-        "tahun_kelulusan": "2023"
-      }
-    ],
-    "prestasi_akademik": [
-      "Juara 2 Lomba Fisika Tingkat Nasional (2018)",
-      "Penghargaan Siswa Berprestasi (2019)"
-    ],
-    "aktivitas_ekstrakurikuler": [
-      "Anggota Paduan Suara SMA DEF (2017-2019)",
-      "Ketua Klub Bahasa Inggris SMA DEF (2018-2019)"
-    ],
-    "rencana_masa_depan": "Menjalani magang di bidang Pemasaran",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
-  },
-  "siswa7": {
-    "nama": "Kiandra Purnawati",
-    "nama_panggilan": "Jane",
-    "tanggal_lahir": "2001-08-22",
-    "tempat_lahir": "Surabaya",
-    "alamat_saat_ini": "Jl. Contoh No. 456, Surabaya",
-    "alamat_email": "janesmith@example.com",
-    "nomor_telepon": "+6289876543210",
-    "riwayat_pendidikan": [
-      {
-        "nama_sekolah": "SMA DEF",
-        "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2019"
-      },
-      {
-        "nama_sekolah": "Universitas UVW",
-        "tingkat_pendidikan": "Sarjana",
-        "tahun_kelulusan": "2023"
-      }
-    ],
-    "prestasi_akademik": [
-      "Juara 2 Lomba Fisika Tingkat Nasional (2018)",
-      "Penghargaan Siswa Berprestasi (2019)"
-    ],
-    "aktivitas_ekstrakurikuler": [
-      "Anggota Paduan Suara SMA DEF (2017-2019)",
-      "Ketua Klub Bahasa Inggris SMA DEF (2018-2019)"
-    ],
-    "rencana_masa_depan": "Menjalani magang di bidang Pemasaran",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
+    "rencana_masa_depan": "Menjadi penulis terkenal dan menginspirasi melalui karya-karya saya",
+    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+    "kata_kata": "The best way to predict the future is to create it.",
+    "typing": "Halo semuanya! Saya sangat senang bisa bergabung di sini. Salam kenal!"
   },
   "siswa8": {
-    "nama": "Ayu Hastuti",
-    "nama_panggilan": "Jane",
-    "tanggal_lahir": "2001-08-22",
-    "tempat_lahir": "Surabaya",
-    "alamat_saat_ini": "Jl. Contoh No. 456, Surabaya",
-    "alamat_email": "janesmith@example.com",
-    "nomor_telepon": "+6289876543210",
+    "nama": "Eka",
+    "nama_panggilan": "Eka",
+    "tanggal_lahir": "2004-02-10",
+    "tempat_lahir": "Medan",
+    "alamat_saat_ini": "Jl. Bahagia No. 456, Medan",
+    "alamat_email": "eka.john@example.com",
     "riwayat_pendidikan": [
       {
-        "nama_sekolah": "SMA DEF",
+        "nama_sekolah": "SMA LMN",
         "tingkat_pendidikan": "SMA",
-        "tahun_kelulusan": "2019"
+        "tahun_kelulusan": "2022"
       },
       {
-        "nama_sekolah": "Universitas UVW",
+        "nama_sekolah": "Universitas ABC",
         "tingkat_pendidikan": "Sarjana",
-        "tahun_kelulusan": "2023"
+        "tahun_kelulusan": "2026"
       }
     ],
     "prestasi_akademik": [
-      "Juara 2 Lomba Fisika Tingkat Nasional (2018)",
-      "Penghargaan Siswa Berprestasi (2019)"
+      "Juara 1 Lomba Fisika Tingkat Nasional (2021)",
+      "Penghargaan Mahasiswa Berprestasi (2025)"
     ],
     "aktivitas_ekstrakurikuler": [
-      "Anggota Paduan Suara SMA DEF (2017-2019)",
-      "Ketua Klub Bahasa Inggris SMA DEF (2018-2019)"
+      "Anggota Tim Debating SMA LMN (2018-2022)",
+      "Ketua Himpunan Mahasiswa Jurusan Fisika (2023-2025)"
     ],
-    "rencana_masa_depan": "Menjalani magang di bidang Pemasaran",
-    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg"
+    "rencana_masa_depan": "Menjadi ilmuwan terkemuka dalam bidang Fisika",
+    "photo_profile": "https://i.pinimg.com/564x/8f/9a/9e/8f9a9e5caa9bf346d1c4113b91f7acd1.jpg",
+    "kata_kata": "Imagination is more important than knowledge.",
+    "typing": "Halo semua! Senang bertemu dengan kalian di sini."
   }
 
 }

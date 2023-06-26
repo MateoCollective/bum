@@ -586,12 +586,6 @@ hr {
 	padding-top: 5px;
 	max-width: 500px;
 	margin-bottom: 10px;
-	-webkit-border-radius: 50px;
-	-webkit-border-top-left-radius: 0;
-	-moz-border-radius: 50px;
-	-moz-border-radius-topleft: 0;
-	border-radius: 50px;
-	border-top-left-radius: 0;
 }
 
 #bubbleChatContainerRight {
@@ -600,12 +594,6 @@ hr {
 	background-color: #333;
 	max-width: 500px;
 	padding-top: 5px;
-	-webkit-border-radius: 50px;
-	-webkit-border-top-left-radius: 0;
-	-moz-border-radius: 50px;
-	-moz-border-radius-topleft: 0;
-	border-radius: 50px;
-	border-top-left-radius: 0;
 }
 
 .profile-bubble img {
@@ -628,7 +616,7 @@ hr {
 }
 
 section {
-	margin: 50px 0px;
+	margin-top: 50px;
 }
   
   .container-budi {

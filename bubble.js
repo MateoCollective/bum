@@ -16,7 +16,7 @@ async function fetchSiswaData() {
       </div>
       <div class="bubble-content">
         <h2>${siswa.nama}</h2>
-        <p>${siswa.kata_kata}</p>
+        <p>${siswa.typing}</p>
       </div>
     `;
     return bubbleChat;
