@@ -372,9 +372,8 @@ input[type="text"] {
 	background-color: #131313;
 	color: #333;
 	font-size: 16px;
-	width: 300px;
-	max-width: 100%;
-	margin: 20px;
+	
+	margin: 20px 0px;
 }
 
 /* Gaya placeholder */
@@ -391,7 +390,7 @@ input[type="text"]:focus {
 	margin: 20px;
 }
 
-.set {
+.set-1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -628,7 +627,9 @@ hr {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-
+section {
+	margin: 50px 0px;
+}
   
   .container-budi {
 	position: relative;
