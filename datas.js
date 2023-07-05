@@ -37,21 +37,24 @@ function showModal(siswa) {
   const modalContent = document.getElementById('modalContent');
   modalContent.innerHTML = `
 
-
-  <div class="container-tnd">
-  <div class="absen"><h1>NO 01</h1></div>
-  <div class="absen-right"><h1>XII</h1></div>
+  <div class="container">
+  <div class="left-section">
+  <img src="${siswa.photo_profile}" alt="${siswa.nama}">
+    <div class="contact-info">
+      <h3>Kontak</h3>
+      <ul>
+        <li>Email: siswa@example.com</li>
+        <li>No. Telepon: 1234567890</li>
+        <li>Alamat: Jl. Contoh Alamat No. 123</li>
+      </ul>
+      <div class="social-media">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
   </div>
-
-
-
-
-  <div class="resume">
-  <div class="profile-pic">
-    <img src="${siswa.photo_profile}" alt="${siswa.nama}">
-  </div>
- 
-
+  <div class="right-section">
   <div class="section-kta">
       <p> ${siswa.kata_kata}</p>
   </div>
@@ -92,6 +95,15 @@ function showModal(siswa) {
 
   </div>
   <hr>
+  </div>
+</div>
+
+
+
+
+ 
+
+ 
 
   
   
