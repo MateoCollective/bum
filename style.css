@@ -36,7 +36,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #888;
+	background-color: #ffffff;
 	/* Warna latar belakang untuk thumb (bagian aktif bilah scroll) */
 	border-radius: 5px;
 	/* Radius sudut untuk thumb */
@@ -67,12 +67,13 @@ header {
 
 header h1 {
 	font-size: 2.5rem;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Domine', serif;
 }
 
 .header-h1 {
 	font-size: 35px;
 	margin: 50px 0px;
+	font-family: 'Domine', serif;
 }
 
 .container-typing {
@@ -457,6 +458,7 @@ input[type="text"]:focus {
 
 .modal-content button {
 	background-color: #888;
+	padding: 20px;
 }
 
 
@@ -521,8 +523,8 @@ input[type="text"]:focus {
 hr {
 	margin: 50px 0px;
 	border: none;
-  border-top: 0.3px solid #ffffff;
- 
+	border-top: 0.3px solid #888;
+
 }
 
 .bubble-chat {
@@ -625,7 +627,7 @@ section {
 	width: 30%;
 	padding: 20px;
 	text-align: center;
-	
+
 }
 
 .left-section img {
@@ -637,10 +639,19 @@ section {
 	text-align: left;
 }
 
-.left-section h3,h2 {
+.quote {
+	margin: 50px 0px;
+}
+
+.left-section h3 {
 	margin-bottom: 20px;
 	font-family: 'Domine', serif;
+}
+
+.right-section h2 {
+	font-family: 'Domine', serif;
 	font-size: 30px;
+	margin-bottom: 20px;
 }
 
 .left-section ul {
@@ -656,7 +667,8 @@ section {
 .social-media a {
 	display: inline-block;
 	margin-right: 10px;
-	color: #333;
+	margin-top: 20px 0px;
+	color: #ffffff;
 	font-size: 20px;
 }
 
@@ -684,6 +696,7 @@ section {
 
 
 
+
 @media screen and (max-width: 767px) {
 	.container {
 		flex-direction: column;
@@ -698,6 +711,7 @@ section {
 	.right-section {
 		width: 100%;
 	}
+
 	.image {
 		width: 100%;
 	}
@@ -731,5 +745,8 @@ section {
 	.header-h1 {
 		font-size: 20px;
 		margin-bottom: 20px;
+	}
+	.modal-content {
+		margin: 0px;
 	}
 }

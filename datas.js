@@ -40,8 +40,10 @@ function showModal(siswa) {
   <div class="container">
   <div class="left-section">
   <img src="${siswa.photo_profile}" alt="${siswa.nama}">
+  <div class="quote"> 
+  <p> ${siswa.kata_kata}</p>
+  </div>
     <div class="contact-info">
-      <h3>Kontak</h3>
       <ul>
         <li>Email: siswa@example.com</li>
         <li>No. Telepon: 1234567890</li>
@@ -55,10 +57,8 @@ function showModal(siswa) {
     </div>
   </div>
   <div class="right-section">
-  <div class="section-kta">
-      <p> ${siswa.kata_kata}</p>
-  </div>
-  <hr>
+
+
 
   <div class="section">
    
@@ -94,7 +94,7 @@ function showModal(siswa) {
     <p>${siswa.rencana_masa_depan}</p>
 
   </div>
-  <hr>
+
   </div>
 </div>
 
