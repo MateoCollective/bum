@@ -37,6 +37,13 @@ function showModal(siswa) {
   const modalContent = document.getElementById('modalContent');
   modalContent.innerHTML = `
 
+
+
+
+
+
+
+  
   <div class="container">
   <div class="left-section">
   <img src="${siswa.photo_profile}" alt="${siswa.nama}">

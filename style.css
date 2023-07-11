@@ -105,6 +105,42 @@ a {
 	filter: grayscale(500%);
 	object-fit: cover;
   }
+
+
+
+  .container-tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-image {
+    margin-right: 20px;
+	filter: grayscale(500%);
+	object-fit: cover;
+	width:180px;
+	height: 230px;
+}
+
+
+
+.quote {
+    flex: 1;
+}
+
+blockquote p {
+    font-size: 12px;
+    line-height: 1.3;
+	margin-top: 10px;
+}
+
+blockquote cite {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
 /* Gaya input */
 input[type="text"] {
 	padding: 10px;
