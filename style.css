@@ -308,8 +308,13 @@ hr {
 	margin-bottom: 10px;
 	border-radius: 5px;
 	padding: 8px;
+	filter: grayscale(500%);
 }
 
+
+.bubble-chat:hover {
+	filter: grayscale(0%);
+}
 
 #bubbleChatContainerLeft {
 	display: flex;
@@ -330,8 +335,7 @@ hr {
 
 .profile-bubble img {
 	width: 40px;
-	height: 40px;
-	border-radius: 50%;
+	height: aut0;
 	margin-right: 10px;
 	object-fit: cover;
 }
@@ -557,6 +561,7 @@ section {
 	margin-top: -100px;
 	margin-left: -100px;
 	font-family: monospace;
+	opacity: 50%;
 }
 
 .tick-tock:before,
