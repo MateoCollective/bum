@@ -69,76 +69,77 @@ a {
 	margin: 50px 0px;
 	font-family: 'Fjalla One', sans-serif;
 }
+
 .container-hid {
 	display: flex;
 	justify-content: space-between;
 	font-size: 20px;
 	margin-top: 20px;
 	font-family: 'Fjalla One', sans-serif;
-  }
-  
-  .left {
+}
+
+.left-hid {
 	text-align: left;
-  }
+}
 
-  .left h1 {
+.left-hid h1 {
 	margin-bottom: 10px;
-  }
+}
 
-  .left p {
+.left-hid p {
 	font-size: 12px;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
-  }
-  
-  .right {
+}
+
+.right-hid {
 	text-align: right;
-  }
+}
 
-  .headpot {
+.headpot {
 	margin: 20px 0px;
-  }
+}
 
-  .headpot img {
+.headpot img {
 	width: 100%;
 	height: 200px;
 	filter: grayscale(500%);
 	object-fit: cover;
-  }
+}
 
 
 
-  .container-tech {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container-tech {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .teacher-image {
-    margin-right: 20px;
+	margin-right: 20px;
 	filter: grayscale(500%);
 	object-fit: cover;
-	width:180px;
+	width: 180px;
 	height: 230px;
 }
 
 
 
 .quote {
-    flex: 1;
+	flex: 1;
 }
 
 blockquote p {
-    font-size: 12px;
-    line-height: 1.3;
+	font-size: 12px;
+	line-height: 1.3;
 	margin-top: 10px;
 }
 
 blockquote cite {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	display: block;
 }
 
 /* Gaya input */
@@ -181,7 +182,7 @@ input[type="text"]:focus {
 }
 
 .card {
-
+	font-family: 'Open sans', sans-serif;
 	text-align: center;
 	cursor: pointer;
 	padding: 10px;
@@ -198,7 +199,7 @@ input[type="text"]:focus {
 }
 
 .card p {
-	font-size: 12px;
+	font-size: 11px;
 	opacity: 60%;
 }
 
@@ -517,7 +518,431 @@ section {
 		font-size: 20px;
 		margin-bottom: 20px;
 	}
+
 	.modal-content {
 		margin: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tick-tock {
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	margin-top: -100px;
+	margin-left: -100px;
+	font-family: monospace;
+}
+
+.tick-tock:before,
+.tick-tock:after {
+	color: #333;
+	position: absolute;
+	width: 30px;
+	left: 50%;
+	margin-left: -15px;
+	font-size: 24px;
+	text-align: center
+}
+
+.tick-tock:before {
+	content: '';
+	top: -48px
+}
+
+.tick-tock:after {
+	content: 'M I P A';
+	top: 50px;
+	line-height: 24px
+}
+
+.tick-tock>.text {
+	color: #888;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+.tick-tock>.text>i {
+	position: absolute;
+	height: 250px;
+	width: 30px;
+	top: 50%;
+	margin-top: -125px;
+	left: 50%;
+	margin-left: -15px;
+	font-style: normal
+}
+
+.tick-tock>.text>i:before,
+.tick-tock>.text>i:after {
+	position: inherit;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 24px
+}
+
+.tick-tock>.text>i:before {
+	top: 0
+}
+
+.tick-tock>.text>i:after {
+	bottom: 0
+}
+
+.tick-tock>.text>i:nth-child(even):after,
+.tick-tock>.text>i:nth-child(even):before {
+	content: '5'
+}
+
+.tick-tock>.text>i:nth-child(odd):after,
+.tick-tock>.text>i:nth-child(odd):before {
+	content: '5'
+}
+
+.tick-tock>.text>i:nth-child(2) {
+	transform: rotate(-30deg)
+}
+
+.tick-tock>.text>i:nth-child(3) {
+	transform: rotate(120deg)
+}
+
+.tick-tock>.text>i:nth-child(4) {
+	transform: rotate(90deg)
+}
+
+.tick-tock>.text>i:nth-child(5) {
+	transform: rotate(-120deg)
+}
+
+.tick-tock>.text>i:nth-child(6) {
+	transform: rotate(30deg)
+}
+
+/* Animation */
+.tick-tock>.text {
+	animation: tick-tock 12s infinite
+}
+
+@keyframes tick-tock {
+
+	0%,
+	4.1667% {
+		transform: rotate(0)
+	}
+
+	8.3333%,
+	12.5000% {
+		transform: rotate(30deg)
+	}
+
+	16.6667%,
+	20.8333% {
+		transform: rotate(60deg)
+	}
+
+	25.0000%,
+	29.1667% {
+		transform: rotate(90deg)
+	}
+
+	33.3333%,
+	37.5000% {
+		transform: rotate(120deg)
+	}
+
+	41.6667%,
+	45.8333% {
+		transform: rotate(150deg)
+	}
+
+	50.0000%,
+	54.1667% {
+		transform: rotate(180deg)
+	}
+
+	58.3333%,
+	62.5000% {
+		transform: rotate(210deg)
+	}
+
+	66.6667%,
+	70.8333% {
+		transform: rotate(240deg)
+	}
+
+	75.0000%,
+	79.1667% {
+		transform: rotate(270deg)
+	}
+
+	83.3333%,
+	87.5000% {
+		transform: rotate(300deg)
+	}
+
+	91.6667%,
+	95.8333% {
+		transform: rotate(330deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+.tick-tock>.text>i:nth-child(1):before {
+	animation: text_1 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(2):before {
+	animation: text_2 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(3):after {
+	animation: text_3 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(4):after {
+	animation: text_4 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(5):before {
+	animation: text_5 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(6):after {
+	animation: text_6 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(1):after {
+	animation: text_7 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(2):after {
+	animation: text_8 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(3):before {
+	animation: text_9 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(4):before {
+	animation: text_10 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(5):after {
+	animation: text_11 12s infinite
+}
+
+.tick-tock>.text>i:nth-child(6):before {
+	animation: text_12 12s infinite
+}
+
+@keyframes text_1 {
+
+	0%,
+	4.1667% {
+		color: #333
+	}
+
+	4.17%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_2 {
+
+	8.3333%,
+	12.5000% {
+		color: #333
+	}
+
+	0%,
+	8.32%,
+	12.51%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_3 {
+
+	16.6667%,
+	20.8333% {
+		color: #333
+	}
+
+	0%,
+	16.66%,
+	20.84%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_4 {
+
+	25.0000%,
+	29.1667% {
+		color: #333
+	}
+
+	0%,
+	24.99%,
+	29.17%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_5 {
+
+	33.3333%,
+	37.5000% {
+		color: #333
+	}
+
+	0%,
+	33.32%,
+	37.51%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_6 {
+
+	41.6667%,
+	45.8333% {
+		color: #333
+	}
+
+	0%,
+	41.65%,
+	45.84%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_7 {
+
+	50.0000%,
+	54.1667% {
+		color: #333
+	}
+
+	0%,
+	49.99%,
+	54.17%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_8 {
+
+	58.3333%,
+	62.5000% {
+		color: #333
+	}
+
+	0%,
+	58.32%,
+	62.51%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_9 {
+
+	66.6667%,
+	70.8333% {
+		color: #333
+	}
+
+	0%,
+	66.65%,
+	70.84%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_10 {
+
+	75.0000%,
+	79.1667% {
+		color: #333
+	}
+
+	0%,
+	74.99%,
+	79.16%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_11 {
+
+	83.3333%,
+	87.5000% {
+		color: #333
+	}
+
+	0%,
+	83.32%,
+	87.51%,
+	100% {
+		color: #888
+	}
+}
+
+@keyframes text_12 {
+
+	91.6667%,
+	95.8333% {
+		color: #333
+	}
+
+	0%,
+	91.65%,
+	95.84%,
+	100% {
+		color: #888
 	}
 }

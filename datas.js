@@ -27,7 +27,7 @@ function createCardElement(siswa) {
   card.innerHTML = `
     <img src="${siswa.photo_profile}" alt="${siswa.nama}" class="profile-image">
     <h2>${siswa.nama}</h2>
-    <p>${siswa.tanggal_lahir}</p>
+    <p>"${siswa.kata_kata}"</p>
   `;
   return card;
 }
