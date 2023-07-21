@@ -39,7 +39,67 @@ function showModal(siswa) {
 
 
 
+  <div class="resume">
+  <div class="banner">
+  <img class="banner-pic" src="${siswa.photo_profile}" alt="${siswa.nama}">
+  </div>
+    <div class="header">
+      <img class="profile-pic" src="${siswa.photo_profile}" alt="${siswa.nama}">
+      <div class="name">Nama Siswa</div>
+      <div class="contact-info">
+        Email: nama.siswa@example.com<br>
+        Telepon: 08123456789
+      </div>
+    </div>
 
+    <div class="section">
+    <h2>Informasi</h2>
+    <div class="education">
+      <p><strong>SMA XYZ</strong> - Jurusan Ilmu Pengetahuan Alam</p>
+      <p>Tahun Masuk: 2019</p>
+      <p>Tahun Lulus: 2022</p>
+    </div>
+  </div>
+
+    <div class="section">
+      <h2>Pendidikan</h2>
+      <div class="education">
+        <p><strong>SMA XYZ</strong> - Jurusan Ilmu Pengetahuan Alam</p>
+        <p>Tahun Masuk: 2019</p>
+        <p>Tahun Lulus: 2022</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Prestasi Akademik</h2>
+      <div class="achievements">
+        <p>1. Juara 1 Olimpiade Matematika tingkat kabupaten tahun 2020</p>
+        <p>2. Mendapatkan nilai rata-rata tertinggi di kelas pada semester genap tahun 2021</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Aktivitas Ekstrakurikuler</h2>
+      <div class="activities">
+        <p>1. Anggota aktif Paduan Suara SMA XYZ sejak 2019</p>
+        <p>2. Ketua Klub Pecinta Alam SMA XYZ tahun 2021</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Pengalaman</h2>
+      <div class="experience">
+        <p><strong>Volunteer, Rumah Sakit ABC</strong></p>
+        <p>Desember 2021 - Februari 2022</p>
+        <p>Membantu dalam kegiatan kesehatan dan memberikan dukungan kepada pasien.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Keahlian</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nec justo tincidunt vestibulum.</p>
+    </div>
+  </div>
 
 
 

@@ -223,7 +223,6 @@ input[type="text"]:focus {
 	width: 100%;
 	align-items: center;
 	justify-content: center;
-	font-weight: 100;
 	font-size: 15px;
 
 }
@@ -251,7 +250,66 @@ input[type="text"]:focus {
 
 
 
+.resume {
+	font-family: Arial, sans-serif;
+	margin: auto;
+	background-color: #f9f9f9;
+  }
 
+  .header {
+	text-align: center;
+	margin-bottom: 20px;
+	position: relative;
+	top: -50px;
+  }
+  .banner {
+
+  }
+
+  .banner-pic {
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	opacity: 20%;
+  }
+
+  .profile-pic {
+	width: 150px;
+	height: 190px;
+	object-fit: cover;
+	margin-bottom: 10px;
+  }
+
+  .name {
+	font-size: 24px;
+	font-weight: bold;
+  }
+
+  .contact-info {
+	margin-bottom: 20px;
+  }
+
+  .section {
+	margin-bottom: 20px;
+  }
+
+  .section h2 {
+	border-bottom: 1px solid #555;
+	padding-bottom: 5px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+  }
+
+  .section p {
+	margin: 10px 0;
+  }
+
+  .education,
+  .experience,
+  .achievements,
+  .activities {
+	margin-left: 20px;
+  }
 
 
 .container-tnd {
@@ -394,81 +452,6 @@ section {
 	transform: scale(1.1);
 }
 
-.container {
-	display: flex;
-	justify-content: center;
-}
-
-.left-section {
-	width: 30%;
-	padding: 20px;
-	text-align: center;
-
-}
-
-.left-section img {
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-.contact-info {
-	text-align: left;
-}
-
-.quote {
-	margin: 50px 0px;
-}
-
-.left-section h3 {
-	margin-bottom: 20px;
-	font-family: 'Open Sans', serif;
-}
-
-.right-section h2 {
-	font-family: 'Open Sans', serif;
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-
-.left-section ul {
-	list-style: none;
-	padding: 0;
-	margin-bottom: 20px;
-}
-
-.left-section ul li {
-	margin-bottom: 10px;
-}
-
-.social-media a {
-	display: inline-block;
-	margin-right: 10px;
-	margin-top: 20px 0px;
-	color: #ffffff;
-	font-size: 20px;
-}
-
-.right-section {
-	width: 60%;
-	padding: 20px;
-}
-
-.right-section h1 {
-	margin-top: 0;
-}
-
-.right-section h3 {
-	margin-top: 20px;
-}
-
-.right-section p {
-	line-height: 1.5;
-	color: #999;
-}
-
-.right-section strong {
-	color: #131313;
-}
 
 
 
@@ -478,32 +461,12 @@ section {
 		flex-direction: column;
 		align-items: center;
 	}
-
-	.left-section {
-		width: 100%;
-		margin-bottom: 20px;
-	}
-
-	.right-section {
-		width: 100%;
-	}
-
-	.image {
-		width: 100%;
-	}
-
-	.content {
-		padding-right: 2rem;
-	}
-
 	nav {
 		left: 0;
 		right: auto;
 	}
-
-	.reseume {
-		width: 10%;
-		margin: 0px;
+	.resume {
+		max-width: 750px;
 	}
 
 	.grid-container {
