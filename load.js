@@ -1,38 +1,61 @@
-function getRandomArbitrary(min, max) {
-  return Math.random() * (max - min) + min;
-}
 
-// super simple router - go to page specified in hash, otherwise go to "default"
-function router (route) {
-  const pageName = route ? route : $('.default.page').attr('data-page-name');
-  const $page = $(`[data-page-name="${pageName}"]`);
-  $('.page').css('display', 'none');
-  $('[data-page]').removeClass('active');
-  $(`[data-page="${pageName}"]`).addClass('active');
-  $page.css('display', 'block');
-}
-router();
+<div class="container" display="none">
+<div class="left-section">
+<img src="${siswa.photo_profile}" alt="${siswa.nama}">
+<div class="quote"> 
+<p> ${siswa.kata_kata}</p>
+</div>
+  <div class="contact-info">
+    <ul>
+      <li>Email: siswa@example.com</li>
+      <li>No. Telepon: 1234567890</li>
+      <li>Alamat: Jl. Contoh Alamat No. 123</li>
+    </ul>
+    <div class="social-media">
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+<div class="right-section">
 
-// fake loader
-let progress = 0;
-const fakeLoaderInterval = window.setInterval(function() {
-  const $lp = $('.loading-progress');
-  progress = progress + getRandomArbitrary(10, 25)
-  $lp.css('transform', `translateX(${progress}%)`);
 
-  if (progress >= 75) {
-    window.clearInterval(fakeLoaderInterval);
-    $lp.css('transform', 'translateX(100%)');
-    setTimeout(() => $('.loading').css('transform', 'translateY(calc(100% + 10px))'), 400);
-  }
-}, getRandomArbitrary(100, 500));
 
-// navigation
-$('.main-nav li a').on('click', e => {
-  const $this = $(e.currentTarget);
-  const route = $this.attr('data-page');
+<div class="section">
+ 
 
-  $('.main-nav li a').removeClass('active');
-  $this.addClass('active');
-  router(route);
-});
+  
+  <h2>Informasi Siswa</h2>
+  <p>Nama: ${siswa.nama}</p>
+  <p>Nama Panggilan: ${siswa.nama_panggilan}</p>
+  <p>Tanggal Lahir: ${siswa.tanggal_lahir}</p>
+  <p>Tempat Lahir: ${siswa.tempat_lahir}</p>
+  <p>Alamat Saat Ini: ${siswa.alamat_saat_ini}</p>
+  <p>Alamat Email: ${siswa.alamat_email}</p>
+  <hr>
+  <h2>Riwayat Pendidikan</h2>
+
+      <p>Nama Sekolah: ${siswa.riwayat_pendidikan[0].nama_sekolah}</p>
+      <p>Tingkat Pendidikan: ${siswa.riwayat_pendidikan[0].tingkat_pendidikan}</p>
+      <p>Tahun Kelulusan: ${siswa.riwayat_pendidikan[0].tahun_kelulusan}</p>
+
+      <hr>
+  <h2>Prestasi Akademik</h2>
+
+    <p>${siswa.prestasi_akademik[0]}</p>
+    <p>${siswa.prestasi_akademik[1]}</p>
+
+
+  <h2>Aktivitas Ekstrakurikuler</h2>
+
+    <p>${siswa.aktivitas_ekstrakurikuler[0]}</p>
+    <p>${siswa.aktivitas_ekstrakurikuler[1]}</p>
+
+  <h2>Rencana Masa Depan</h2>
+  <p>${siswa.rencana_masa_depan}</p>
+
+</div>
+
+</div>
+</div>

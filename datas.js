@@ -45,7 +45,7 @@ function showModal(siswa) {
   </div>
     <div class="header">
       <img class="profile-pic" src="${siswa.photo_profile}" alt="${siswa.nama}">
-      <div class="name">Nama Siswa</div>
+      <div class="name">${siswa.nama}</div>
       <div class="contact-info">
         Email: nama.siswa@example.com<br>
         Telepon: 08123456789
@@ -56,8 +56,12 @@ function showModal(siswa) {
     <h2>Informasi</h2>
     <div class="education">
       <p><strong>SMA XYZ</strong> - Jurusan Ilmu Pengetahuan Alam</p>
-      <p>Tahun Masuk: 2019</p>
-      <p>Tahun Lulus: 2022</p>
+      <p>Nama: ${siswa.nama}</p>
+  <p>Nama Panggilan: ${siswa.nama_panggilan}</p>
+  <p>Tanggal Lahir: ${siswa.tanggal_lahir}</p>
+  <p>Tempat Lahir: ${siswa.tempat_lahir}</p>
+  <p>Alamat Saat Ini: ${siswa.alamat_saat_ini}</p>
+  <p>Alamat Email: ${siswa.alamat_email}</p>
     </div>
   </div>
 
@@ -73,97 +77,25 @@ function showModal(siswa) {
     <div class="section">
       <h2>Prestasi Akademik</h2>
       <div class="achievements">
-        <p>1. Juara 1 Olimpiade Matematika tingkat kabupaten tahun 2020</p>
-        <p>2. Mendapatkan nilai rata-rata tertinggi di kelas pada semester genap tahun 2021</p>
+      <p>${siswa.prestasi_akademik[0]}</p>
+      <p>${siswa.prestasi_akademik[1]}</p>
       </div>
     </div>
 
     <div class="section">
       <h2>Aktivitas Ekstrakurikuler</h2>
       <div class="activities">
-        <p>1. Anggota aktif Paduan Suara SMA XYZ sejak 2019</p>
-        <p>2. Ketua Klub Pecinta Alam SMA XYZ tahun 2021</p>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Pengalaman</h2>
-      <div class="experience">
-        <p><strong>Volunteer, Rumah Sakit ABC</strong></p>
-        <p>Desember 2021 - Februari 2022</p>
-        <p>Membantu dalam kegiatan kesehatan dan memberikan dukungan kepada pasien.</p>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Keahlian</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nec justo tincidunt vestibulum.</p>
-    </div>
-  </div>
-
-
-
-  
-  <div class="container">
-  <div class="left-section">
-  <img src="${siswa.photo_profile}" alt="${siswa.nama}">
-  <div class="quote"> 
-  <p> ${siswa.kata_kata}</p>
-  </div>
-    <div class="contact-info">
-      <ul>
-        <li>Email: siswa@example.com</li>
-        <li>No. Telepon: 1234567890</li>
-        <li>Alamat: Jl. Contoh Alamat No. 123</li>
-      </ul>
-      <div class="social-media">
-        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="right-section">
-
-
-
-  <div class="section">
-   
-
-    
-    <h2>Informasi Siswa</h2>
-    <p><strong>Nama:</strong> ${siswa.nama}</p>
-    <p><strong>Nama Panggilan:</strong> ${siswa.nama_panggilan}</p>
-    <p><strong>Tanggal Lahir:</strong> ${siswa.tanggal_lahir}</p>
-    <p><strong>Tempat Lahir:</strong> ${siswa.tempat_lahir}</p>
-    <p><strong>Alamat Saat Ini:</strong> ${siswa.alamat_saat_ini}</p>
-    <p><strong>Alamat Email:</strong> ${siswa.alamat_email}</p>
-    <hr>
-    <h2>Riwayat Pendidikan</h2>
-
-        <p><strong>Nama Sekolah:</strong> ${siswa.riwayat_pendidikan[0].nama_sekolah}</p>
-        <p><strong>Tingkat Pendidikan:</strong> ${siswa.riwayat_pendidikan[0].tingkat_pendidikan}</p>
-        <p><strong>Tahun Kelulusan:</strong> ${siswa.riwayat_pendidikan[0].tahun_kelulusan}</p>
-
-        <hr>
-    <h2>Prestasi Akademik</h2>
-
-      <p>${siswa.prestasi_akademik[0]}</p>
-      <p>${siswa.prestasi_akademik[1]}</p>
-
-
-    <h2>Aktivitas Ekstrakurikuler</h2>
-  
       <p>${siswa.aktivitas_ekstrakurikuler[0]}</p>
-      <p>${siswa.aktivitas_ekstrakurikuler[1]}</p>
+    <p>${siswa.aktivitas_ekstrakurikuler[1]}</p>
+      </div>
+    </div>
+    </div>
 
-    <h2>Rencana Masa Depan</h2>
-    <p>${siswa.rencana_masa_depan}</p>
+  
 
-  </div>
 
-  </div>
-</div>
+
+
 
 
 
